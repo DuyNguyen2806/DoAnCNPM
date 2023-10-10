@@ -13,9 +13,11 @@ namespace QuanLySinhVien
 {
     public partial class frmDetailStudent : Form
     {
+        Model1 db = new Model1();
         public frmDetailStudent(Student s, Class c)
         {
             InitializeComponent();
+
             label14.Text = s.StudentID.ToString();
             label13.Text = s.FullName.ToString();
             label12.Text = s.DateOfBirth.ToString();

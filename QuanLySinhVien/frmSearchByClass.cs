@@ -25,7 +25,17 @@ namespace QuanLySinhVien
 
             var query = from student in db.Students
                         where student.ClassID == ClassID
-                        select student;
+                        join classes in db.Classes
+                        on student.ClassID equals classes.ClassID
+                        select new
+                        {
+                            student.StudentID,
+                            student.FullName,
+                            student.DateOfBirth,
+                            student.Gender,
+                            student.Email,
+                            classes.ClassName
+                        };
 
             dataGridView1.DataSource = query.ToList();
 

@@ -45,10 +45,18 @@ namespace QuanLySinhVien
                             classes.ClassName
                         };
             dataGridView1.DataSource = query.ToList();
-            cbbLop.DataSource = db.Classes.ToList();
+            List<Class> listClass = db.Classes.ToList();
+            fillDataCBB(listClass);
+            cbbLop.SelectedItem = null;
+           
+
+        }
+
+        private void fillDataCBB(List<Class> classes)
+        {
+           cbbLop.DataSource = classes;
             cbbLop.DisplayMember = "ClassName";
             cbbLop.ValueMember = "ClassID";
-
 
         }
 
@@ -245,6 +253,11 @@ namespace QuanLySinhVien
             Class c = db.Classes.FirstOrDefault(cl=> cl.ClassID == CurrentClass );
             frmDetailStudent detailStudent = new frmDetailStudent(s, c);
             detailStudent.ShowDialog();
+        }
+
+        private void dataGridView1_Leave(object sender, EventArgs e)
+        {
+           
         }
     }
 }

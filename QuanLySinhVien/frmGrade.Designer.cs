@@ -37,9 +37,12 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(-11, 114);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(1038, 305);
@@ -49,7 +52,7 @@
             // cbbClass
             // 
             this.cbbClass.FormattingEnabled = true;
-            this.cbbClass.Location = new System.Drawing.Point(195, 26);
+            this.cbbClass.Location = new System.Drawing.Point(127, 45);
             this.cbbClass.Name = "cbbClass";
             this.cbbClass.Size = new System.Drawing.Size(121, 28);
             this.cbbClass.TabIndex = 12;
@@ -57,7 +60,7 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(374, 22);
+            this.btnThem.Location = new System.Drawing.Point(343, 39);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(123, 34);
             this.btnThem.TabIndex = 13;
@@ -68,7 +71,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(61, 35);
+            this.label1.Location = new System.Drawing.Point(23, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 20);
             this.label1.TabIndex = 14;

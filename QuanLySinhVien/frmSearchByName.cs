@@ -52,7 +52,7 @@ namespace QuanLySinhVien
             {
                 Id = x.StudentID,
                 TenSV = x.FullName,
-                Dob = x.DateOfBirth,
+                NgaySinh = x.DateOfBirth,
                 gender = x.Gender,
                 email = x.Email,
                 classes = x.ClassID,

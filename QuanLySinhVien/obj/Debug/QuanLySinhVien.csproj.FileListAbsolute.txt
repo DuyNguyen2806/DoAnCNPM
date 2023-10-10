@@ -6,7 +6,6 @@ C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\EntityFramewo
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\EntityFramework.xml
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.AssemblyReference.cache
-C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.Form1.resources
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.Properties.Resources.resources
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.GenerateResource.cache
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
@@ -21,3 +20,5 @@ C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVie
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmFaculty.resources
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmGrade.resources
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmAddGrade.resources
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmMain.resources
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmClass.resources

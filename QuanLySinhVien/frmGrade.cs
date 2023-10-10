@@ -22,47 +22,16 @@ namespace QuanLySinhVien
 
         private void frmClass_Load(object sender, EventArgs e)
         {
-            cbbClass.DataSource = db.Classes.ToList();
+            List<Class> listClass = db.Classes.ToList();
+            fillDataCBB(listClass);
+            cbbClass.SelectedItem = null;
+        }
+        private void fillDataCBB(List<Class> classes)
+        {
+            cbbClass.DataSource = classes;
             cbbClass.DisplayMember = "ClassName";
             cbbClass.ValueMember = "ClassID";
-        }
 
-
-        private void btnThem_Click(object sender, EventArgs e)
-        {
-           
-
-        }
-
-        private void cbbMaSV_SelectedIndexChanged(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void SelectClassForStudent(int selectedStudentID)
-
-        {
-
-           
-           
-        }
-
-        private void cbbLop_SelectedIndexChanged(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void DisplayGradesByClass(int ClassID)
-        {
-            var gradesForClass = db.Grades.Where(g => g.ClassID == ClassID).ToList();
-
-            dataGridView1.DataSource = gradesForClass;
-            
-        }
-
-        private void cbbClass_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
         }
 
         private void cbbClass_SelectedIndexChanged_1(object sender, EventArgs e)
@@ -73,10 +42,12 @@ namespace QuanLySinhVien
                 {
                     var studentsForClass = db.Students.Where(s => s.ClassID == selectedClassID).ToList();
                     dataGridView1.DataSource = studentsForClass;
+                    dataGridView1.Columns[5].Visible = false;
+                    dataGridView1.Columns[6].Visible = false;
                 }
                 else
                 {
-                    
+
                 }
             }
         }
@@ -88,14 +59,12 @@ namespace QuanLySinhVien
             .Where(g => g.ClassID == selectedClassID)
             .Select(g => new
             {
-                g.StudentID,
+                g.Student.FullName,
                 g.Class.ClassName,
                 g.Subject,
                 g.Score
             })
             .ToList();
-
-            // Đặt kết quả truy vấn vào DataGridView
             dataGridView1.DataSource = grades;
 
         }
@@ -107,7 +76,7 @@ namespace QuanLySinhVien
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
                 string studentID = row.Cells["StudentID"].Value.ToString();
-                
+
                 int classID = Convert.ToInt32(row.Cells[5].Value);
                 frmAddGrade addGradeForm = new frmAddGrade(studentID, classID);
                 addGradeForm.ShowDialog();
