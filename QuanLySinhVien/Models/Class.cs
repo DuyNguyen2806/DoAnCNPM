@@ -20,15 +20,12 @@ namespace QuanLySinhVien.Models
         [StringLength(50)]
         public string ClassName { get; set; }
 
+        [StringLength(50)]
         public string DepartmentID { get; set; }
 
         public virtual Department Department { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Grade> Grades { get; set; }
-        public override string ToString()
-        {
-            return ClassName;
-        }
     }
 }

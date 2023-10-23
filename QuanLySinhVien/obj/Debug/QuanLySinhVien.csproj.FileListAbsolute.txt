@@ -22,3 +22,17 @@ C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVie
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmAddGrade.resources
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmMain.resources
 C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmClass.resources
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\BCrypt.Net.dll
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\System.Buffers.dll
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\System.Memory.dll
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\BCrypt.Net.xml
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\System.Buffers.xml
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\System.Memory.xml
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmRegister.resources
+C:\Users\QUOCDUY\OneDrive\Máy tính\DoAn\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmLogin.resources

@@ -14,12 +14,14 @@ namespace QuanLySinhVien
     public partial class frmMain : Form
         
     {
-        Model1 dbContext = new Model1();        
+        Model1 dbContext = new Model1();   
+
         public frmMain()
         {
             InitializeComponent();
             panel1.Dock = DockStyle.Fill;
             this.Controls.Add(panel1);
+         
         }
 
         private void Form1_Load(object sender, EventArgs e)

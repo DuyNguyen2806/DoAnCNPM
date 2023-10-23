@@ -22,9 +22,5 @@ namespace QuanLySinhVien.Models
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Class> Classes { get; set; }
-        public override string ToString()
-        {
-            return DepartmentName;
-        }
     }
 }
